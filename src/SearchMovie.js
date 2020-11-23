@@ -4,10 +4,10 @@ function SearchMovie(){
     return(
         <div>
             <form className="form">
-                <label htmlFor="query">
-                    <input className="input" type="text" name="query" id="query" placeholder="type movie name e.g Nutty Professor"/>
+                <label className="label" htmlFor="query"> Movie Name
+                    <input className="input" type="text" name="query" placeholder="type movie name e.g Nutty Professor"/>
                 </label>
-                <input type="submit" value="Search"/>
+                <input className="button type" type="submit" value="Search"/>
             </form>
         </div>
     )

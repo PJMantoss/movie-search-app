@@ -22,6 +22,10 @@ p {
   padding: 40px;
 }
 
+.title {
+  font-size: 4.4rem;
+}
+
 /* .App {
   text-align: center;
 }

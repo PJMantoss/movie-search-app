@@ -4,8 +4,8 @@ function SearchMovies(){
     return(
         <div>
             <form className="form">
-                <label>
-                    <input/>
+                <label htmlFor="query">
+                    <input type="text" name="query" id="query"/>
                 </label>
             </form>
         </div>

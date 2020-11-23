@@ -3,7 +3,24 @@
   margin: 0;
 }
 
+html {
+  font-size: 10px;
+}
 
+body {
+  background: rgb(244,244,244);
+  color: #333;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.app {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
 
 /* .App {
   text-align: center;

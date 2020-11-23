@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "\"React app for searching movies using TMDb API\"",
+  "main": "index.js",
+  "author": "pjmantoss <joelptoss@gmail.com>",
+  "license": "MIT"
 }

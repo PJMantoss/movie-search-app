@@ -1,6 +1,6 @@
 import React from 'react';
 
-function SearchMovie(){
+function SearchMovies(){
     return(
         <div>
             <form className="form">
@@ -13,4 +13,4 @@ function SearchMovie(){
     )
 }
 
-export default SearchMovie;
+export default SearchMovies;

@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchMovie from './SearchMovie';
+import SearchMovies from './SearchMovies';
 import './App.css';
 
 class App extends React.Component {

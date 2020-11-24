@@ -8,6 +8,7 @@ function Footer(){
 
             <div id="love">
                 <span>Made With</span>
+                <img src="https://img.icons8.com/dusk/64/000000/like.png" alt="love"/> 
                 
             </div>
         </footer>

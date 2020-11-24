@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchMovies from './components/SearchMovies';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends React.Component {

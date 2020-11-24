@@ -106,6 +106,7 @@ p {
 
   .card {
     flex: 45%;
+    margin: 0 10px;
   }
 }
 

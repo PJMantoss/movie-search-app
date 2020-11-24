@@ -38,7 +38,7 @@ function SearchMovies(){
             </form>
 
             <div className="card--list">
-                {movies.filter(movie => props.info.movie.poster_path).map(movie => (
+                {movies.filter(movie => movie.poster_path).map(movie => (
                     <MovieCard movie={movie} />
                 ))}
             </div>

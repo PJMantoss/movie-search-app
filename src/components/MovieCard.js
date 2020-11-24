@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MovieCard(){
+function MovieCard({movie}){
 
     return (
             <div className="card" key={movie.id}>

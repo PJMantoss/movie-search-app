@@ -87,6 +87,8 @@ p {
   display: block;
 }
 
+/* Styling for Footer */
+
 @media (min-width: 600px){
   .form {
     grid-template-columns: auto 1fr auto;

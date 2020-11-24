@@ -48,7 +48,7 @@ function SearchMovies(){
                             <h3 className="card.title">{movie.title}</h3>
                             <p><small>RELEASE DATE: {movie.release_date}</small></p>
                             <p><small>RATING: {movie.vote_average}</small></p>
-                            <p className="card--description"></p>
+                            <p className="card--desc"></p>
                         </div>
                     </div>
                 ))}

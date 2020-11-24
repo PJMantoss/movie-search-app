@@ -55,6 +55,7 @@ p {
   font-size: 1.4rem;
   cursor: pointer;
   transition: background .25s;
+  outline: none;
 }
 
 .button:hover {

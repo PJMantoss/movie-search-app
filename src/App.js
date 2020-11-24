@@ -14,6 +14,7 @@ class App extends React.Component {
       <div className="app">
         <h1 className="title">React Movie Search</h1>
         <SearchMovies />
+        <Footer />
       </div>
     );
   }

@@ -4,6 +4,10 @@ function SearchMovies(){
 
     const searchMovies = (e) => {
         e.preventDefault();
+
+        const url = ``;
+
+        fetch(url);
     }
 
     return(

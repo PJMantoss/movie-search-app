@@ -35,6 +35,15 @@ function SearchMovies(){
                     placeholder="movie name e.g Nutty Professor"/>
                 <input className="button type" type="submit" value="Search"/>
             </form>
+
+            <div className="card--list">
+                {movies.map(movie => (
+                    <div className="card" key={movie.id}>
+                        <img src="" />
+                        <div className="card--content"></div>
+                    </div>
+                ))}
+            </div>
         </div>
     )
 }

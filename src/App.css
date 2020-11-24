@@ -98,7 +98,7 @@ p {
 
   .card--list {
     display: flex;
-
+    justify-content: center;
   }
 }
 

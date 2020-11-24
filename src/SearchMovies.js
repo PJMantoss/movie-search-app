@@ -1,6 +1,11 @@
 import React from 'react';
 
 function SearchMovies(){
+
+    const searchMovies = (e) => {
+        e.preventDefault();
+    }
+
     return(
         <div>
             <form className="form" onSubmit={searchMovies}>

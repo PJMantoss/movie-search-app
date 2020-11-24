@@ -62,7 +62,7 @@ p {
   background: rgba(0,0,0,0.85);
 }
 
-@media (min-width: 786px){
+@media (min-width: 600px){
   .form {
     grid-template-columns: auto 1fr auto;
     grid-gap: 1rem;

@@ -1,4 +1,4 @@
-import React, {} from 'react';
+import React, { useState } from 'react';
 
 function MovieCard(props){
     const [movies, setMovies] = useState([]);

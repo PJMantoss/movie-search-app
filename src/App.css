@@ -86,8 +86,8 @@ p {
   margin-top: 4rem;
 }
 
-.card--title {
-  margin: 0.5rem 0;
+.card--content .card--title {
+  margin: 0.7rem 0;
   font-size: 3.2rem;
 }
 

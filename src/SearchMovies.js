@@ -45,7 +45,7 @@ function SearchMovies(){
                             alt={movie.title + ' poster'} 
                         />
                         <div className="card--content">
-                            <h3></h3>
+                            <h3 className="card.title"></h3>
                             <p></p>
                         </div>
                     </div>

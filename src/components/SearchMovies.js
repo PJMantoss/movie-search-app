@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import movieCard from './movieCard';
+import MovieCard from './MovieCard';
 
 function SearchMovies(){
     //state for input query

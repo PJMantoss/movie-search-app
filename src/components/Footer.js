@@ -6,7 +6,9 @@ function Footer(){
             <p><strong>Movie Search</strong></p>
             <p>Copyright 2020</p>
 
-            
+            <div id="love">
+                
+            </div>
         </footer>
     )
 }

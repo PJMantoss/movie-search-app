@@ -7,6 +7,7 @@ function Footer(){
             <p>Copyright 2020</p>
 
             <div id="love">
+                <span>Made With</span>
                 
             </div>
         </footer>

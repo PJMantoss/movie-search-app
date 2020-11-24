@@ -3,7 +3,7 @@ import React from 'react';
 function SearchMovies(){
     return(
         <div>
-            <form className="form">
+            <form className="form" onSubmit={searchMovies}>
                 <label className="label" htmlFor="query"> Movie Name</label>
                 <input className="input" type="text" name="query" placeholder="movie name e.g Nutty Professor"/>
                 <input className="button type" type="submit" value="Search"/>

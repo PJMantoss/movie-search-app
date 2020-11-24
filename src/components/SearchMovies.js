@@ -37,7 +37,7 @@ function SearchMovies(){
                 <input className="button type" type="submit" value="Search"/>
             </form>
 
-            <MovieCard />
+            <MovieCard info={info} />
         </div>
     )
 }

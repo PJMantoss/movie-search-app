@@ -3,8 +3,7 @@ import React, { useState } from 'react';
 function MovieCard(props){
 
     return (
-        <div className="card--list">
-            {movies.filter(movie => props.info.movie.poster_path).map(movie => (
+
                 <div className="card" key={movie.id}>
                     <img 
                         className="card--image" 
@@ -18,8 +17,6 @@ function MovieCard(props){
                         <p className="card--desc">{props.info.movie.overview}</p>
                     </div>
                 </div>
-            ))}
-        </div>
     )
 }
 

@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {} from 'react';
 
 function MovieCard(props){
+    const [movies, setMovies] = useState([]);
+
     return (
         <div className="card--list">
             {movies.filter(movie => props.info.movie.poster_path).map(movie => (

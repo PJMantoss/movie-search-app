@@ -96,7 +96,10 @@ p {
     margin-bottom: 0;
   }
 
-  .card--list {}
+  .card--list {
+    display: flex;
+
+  }
 }
 
 /* .App {

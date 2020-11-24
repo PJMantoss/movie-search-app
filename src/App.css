@@ -100,6 +100,10 @@ p {
     display: flex;
     justify-content: center;
   }
+
+  .card {
+    flex: 48%;
+  }
 }
 
 /* .App {

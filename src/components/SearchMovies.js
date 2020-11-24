@@ -39,7 +39,7 @@ function SearchMovies(){
 
             <div className="card--list">
                 {movies.filter(movie => props.info.movie.poster_path).map(movie => (
-                    <MovieCard info={info} />
+                    <MovieCard movie={movie} />
                 ))}
             </div>
         </div>

@@ -107,6 +107,13 @@ footer {
   text-decoration: none;
 }
 
+#love > span {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000;
+}
+
 
 
 @media (min-width: 600px){

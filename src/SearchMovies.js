@@ -47,6 +47,7 @@ function SearchMovies(){
                         <div className="card--content">
                             <h3 className="card.title">{movie.title}</h3>
                             <p><small></small></p>
+                            <p><small></small></p>
                             <p></p>
                         </div>
                     </div>

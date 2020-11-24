@@ -7,11 +7,15 @@ function SearchMovies(){
 
         const query = "The Mechanic";
 
-        const url = `https://api.themoviedb.org/3/search/movie?api_key=6a711b2f9574da2458063937e061f1c3=en-US&query=${query}&page=1&include_adult=false`;
+        const url = `https://api.themoviedb.org/3/search/movie?api_key=9b9e25dbc1c45abfea8f24e2af2091ff&language=en-US&query=${query}&page=1&include_adult=false`;
 
-        const res = await fetch(url);
-        const data = await res.json();
-        console.log(data);
+        try{
+            const res = await fetch(url);
+            const data = await res.json();
+            console.log(data);
+        }catch(err){
+            console.error(err);
+        }
     }
 
     return(

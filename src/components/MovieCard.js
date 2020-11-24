@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MovieCard(){
+function MovieCard(props){
     return (
         <div className="card--list">
             {movies.filter(movie => movie.poster_path).map(movie => (

@@ -37,7 +37,11 @@ function SearchMovies(){
                 <input className="button type" type="submit" value="Search"/>
             </form>
 
-            <MovieCard info={info} />
+            <div className="card--list">
+                {movies.filter(movie => props.info.movie.poster_path).map(movie => (
+                    <MovieCard info={info} />
+                ))}
+            </div>
         </div>
     )
 }

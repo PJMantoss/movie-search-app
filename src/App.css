@@ -91,7 +91,9 @@ p {
   font-size: 3.2rem;
 }
 
-.card--image {}
+.card--image {
+  margin: 0 auto;
+}
 
 /* .App {
   text-align: center;

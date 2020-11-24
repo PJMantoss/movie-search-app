@@ -93,6 +93,7 @@ p {
 
 .card--image {
   margin: 0 auto;
+  display: block;
 }
 
 /* .App {

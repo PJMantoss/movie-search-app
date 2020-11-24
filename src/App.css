@@ -78,6 +78,7 @@ p {
 .card--title {
   margin: 0.5rem 0;
   font-size: 3.2rem;
+  text-align: center;
 }
 
 .card--image {

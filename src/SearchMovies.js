@@ -40,7 +40,10 @@ function SearchMovies(){
                 {movies.map(movie => (
                     <div className="card" key={movie.id}>
                         <img src="" />
-                        <div className="card--content"></div>
+                        <div className="card--content">
+                            <h3></h3>
+                            <p></p>
+                        </div>
                     </div>
                 ))}
             </div>

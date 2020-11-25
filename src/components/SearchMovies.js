@@ -7,6 +7,8 @@ function SearchMovies(){
     //state for movies
     const [movies, setMovies] = useState([]);
 
+    const [isLoading, setIsLoading] = useState(true);
+
     const searchMovies = async (e) => {
         e.preventDefault();
 
@@ -21,6 +23,12 @@ function SearchMovies(){
         }catch(err){
             console.error(err);
         }
+    }
+
+    componentDidMount() {
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 1500)
     }
 
     return(
@@ -39,7 +47,7 @@ function SearchMovies(){
 
             <div className="card--list">
                 {movies.filter(movie => movie.poster_path).map(movie => (
-                    <MovieCard movie={movie} key={movie.id} />
+                   isLoading ? "Loading..." : <MovieCard movie={movie} key={movie.id} />
                 ))}
             </div>
         </div>

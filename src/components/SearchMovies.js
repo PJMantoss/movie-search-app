@@ -27,7 +27,7 @@ function SearchMovies(){
 
     useEffect(() => {
         setIsLoading(false);
-    }, [])
+    }, [query])
 
     return(
         <div>

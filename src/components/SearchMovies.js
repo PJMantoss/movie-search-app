@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import MovieCard from './MovieCard';
 
 function SearchMovies(){
@@ -25,11 +25,9 @@ function SearchMovies(){
         }
     }
 
-    componentDidMount() {
-        setTimeout(() => {
-            setIsLoading(false);
-        }, 1500)
-    }
+    useEffect(() => {
+        setIsLoading(false);
+    }, [])
 
     return(
         <div>

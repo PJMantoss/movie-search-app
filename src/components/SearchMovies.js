@@ -25,10 +25,6 @@ function SearchMovies(){
         }
     }
 
-    useEffect(() => {
-        setIsLoading(false);
-    }, [query])
-
     return(
         <div>
             <form className="form" onSubmit={searchMovies}>

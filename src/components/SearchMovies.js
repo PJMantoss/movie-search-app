@@ -40,7 +40,7 @@ function SearchMovies(){
             </form>
 
             <div className="card--list">
-                {isLoading ? <h1>Loading... Please wait...</h1> : movies.filter(movie => movie.poster_path).map(movie => (
+                {isLoading ? <h1>Loading... Please wait</h1> : movies.filter(movie => movie.poster_path).map(movie => (
                     <MovieCard movie={movie} key={movie.id} />
                 ))}
             </div>

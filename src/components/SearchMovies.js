@@ -45,7 +45,7 @@ function SearchMovies(){
             </form>
 
             <div className="card--list">
-                {isLoading ? <h1>Loading... Please wait</h1> : map(movie => (
+                {isLoading ? <h1>Loading... Please wait</h1> : filteredMovies.length : map(movie => (
                     <MovieCard movie={movie} key={movie.id} /> === null ? 
                     <h1>Sorry Movie Not Found</h1> : 
                     <MovieCard movie={movie} key={movie.id} />

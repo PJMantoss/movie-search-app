@@ -11,6 +11,7 @@ function SearchMovies(){
 
     const searchMovies = async (e) => {
         e.preventDefault();
+        
 
         // const query = "The Mechanic";
 
@@ -20,6 +21,7 @@ function SearchMovies(){
             const res = await fetch(url);
             const data = await res.json();
             setMovies(data.results);
+            setIsLoading(false);
         }catch(err){
             console.error(err);
         }

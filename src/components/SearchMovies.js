@@ -48,7 +48,7 @@ function SearchMovies(){
                 {isLoading ? <h1>Loading... Please wait</h1> : filteredMovies.length ? 
                  filteredMovies.map(movie => (
                     <MovieCard movie={movie} key={movie.id} />
-                ))}
+                 )) : <h1>Sorry Movie Not Found</h1> }
             </div>
         </div>
     )

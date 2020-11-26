@@ -44,7 +44,9 @@ function SearchMovies(){
 
             <div className="card--list">
                 {isLoading ? <h1>Loading... Please wait</h1> : movies.filter(movie => movie.poster_path).map(movie => (
-                    <MovieCard movie={movie} key={movie.id} /> === "" ? <h1>Sorry Movie Not Found</h1> : <MovieCard movie={movie} key={movie.id} />
+                    <MovieCard movie={movie} key={movie.id} /> === "" ? 
+                    <h1>Sorry Movie Not Found</h1> : 
+                    <MovieCard movie={movie} key={movie.id} />
                 ))}
             </div>
         </div>

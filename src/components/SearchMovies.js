@@ -7,7 +7,7 @@ function SearchMovies(){
     //state for movies
     const [movies, setMovies] = useState([]);
 
-    const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(false);
 
     const searchMovies = async (e) => {
         e.preventDefault();

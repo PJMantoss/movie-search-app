@@ -36,7 +36,8 @@ function SearchMovies(){
                     name="query"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)} 
-                    placeholder="movie name e.g Nutty Professor"/>
+                    placeholder="movie name e.g Nutty Professor"
+                    require/>
                 <input className="button type" type="submit" value="Search"/>
             </form>
 

@@ -13,8 +13,6 @@ function SearchMovies(){
         e.preventDefault();
         setIsLoading(true);
 
-        // const query = "The Mechanic";
-
         const url = `https://api.themoviedb.org/3/search/movie?api_key=9b9e25dbc1c45abfea8f24e2af2091ff&language=en-US&query=${query}&page=1&include_adult=false`;
 
         try{

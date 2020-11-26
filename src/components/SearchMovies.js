@@ -18,8 +18,8 @@ function SearchMovies(){
         try{
             const res = await fetch(url);
             const data = await res.json();
-            console.log(data);
-            // setMovies(data.results);
+            // console.log(data);
+            setMovies(data.results);
             setIsLoading(false);
         }catch(err){
             console.error(err);

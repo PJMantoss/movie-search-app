@@ -11,7 +11,7 @@ function SearchMovies(){
 
     const searchMovies = async (e) => {
         e.preventDefault();
-        
+        setIsLoading(false);
 
         // const query = "The Mechanic";
 

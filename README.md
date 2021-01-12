@@ -13,6 +13,6 @@ I started building the app by creating the component folders and signing up on t
 
 ROADBLOCK: I encountered one major roadblock which was how to conditionally render the text "Loading... Please wait" while awaiting fetch results from the API.
 
-SOLUTION: To solve this, I created, in SerachMovies, a isLoading state with initial value of 'false', set it to 'true' just before fetch and set it back to false just after setMovies.
+SOLUTION: To solve this, I created in SearchMovies, a isLoading state with initial value of 'false', set it to 'true' just before fetch and set it back to false just after setMovies.
 
 Date: 24-Nov-20
